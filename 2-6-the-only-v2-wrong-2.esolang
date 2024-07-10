@@ -1,0 +1,21 @@
+abc=1
+acb=1
+bac=1
+bca=1
+cab=1
+cba=1
+
+aba=1
+aca=1
+bab=1
+bcb=1
+cac=1
+cbc=1
+
+a=
+b=
+c=
+11=(return)false
+1=(return)true
+=(return)false
+# wrong

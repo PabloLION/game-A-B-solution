@@ -1,0 +1,15 @@
+cb=bc
+ca=ac
+ba=ab
+
+abbbc=bb
+abbc=b    # aabbc, abbcc
+abc=      # aabc, abcc
+
+ab=       # aab, abb, aaab, abbb, ..., aaaabbb
+ac=       # aac, acc, aaac, accc, ..., aaaaccc
+bc=       # bbc, bcc, bbbc, bccc, ..., bbbbccc
+
+aa=a      # aa
+bb=b      # bb
+cc=c      # cc

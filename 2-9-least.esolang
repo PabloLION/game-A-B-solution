@@ -1,0 +1,11 @@
+cb=bc
+ca=ac
+ba=ab
+
+abbbc=bb
+abbc=b
+abc=
+
+bc=(return)a
+ac=(return)b
+ab=(return)c

@@ -1,0 +1,17 @@
+cb=bc              # bubble sort the string
+ca=ac
+ce=ec
+
+ba=e
+ab=e
+
+bec=b
+eb=be              # move e to before c
+a=(return)false    # more a than b
+e=(return)false    # same a as b
+
+bbc=b              # trick for "no c"
+bcc=(return)true
+=(return)false
+
+# also thought about eliminating ab like bc, but it's not reducing it to 8 lines

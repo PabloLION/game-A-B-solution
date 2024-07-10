@@ -1,0 +1,11 @@
+cb=bc                           # bubble sort the string
+ca=ac
+ba=ab
+
+ab=B
+Bb=bB
+a=(return)false                 # more a than b
+# failed here, cannot judge if count(a) == count(b)
+Bc=cB # move B to the end
+cB=
+c=(return)true

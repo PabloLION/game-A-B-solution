@@ -1,0 +1,42 @@
+# we call the letter diffrent from adjacent letters a "weird letter"
+aa=0A     # 0 weird letter , ending with a
+0Abb=0B   # 0 weird letter , ending with b
+0Ab=1B    # 1 weird letter , ending with b
+1Baa=1A   # 1 weird letter , ending with a
+# 1Ba=2A  # 2 weird letters, ending with a, return false
+1Ba=(return false)
+
+# now the real deal, repeat all the patterns above for a, b and c
+aa=0A
+bb=0B
+cc=0C
+Aa=A
+Bb=B
+Cc=C
+0Abb=0B
+0Acc=0C
+0Baa=0A
+0Bcc=0C
+0Caa=0A
+0Cbb=0B
+0Ab=1B
+0Ac=1C
+0Ba=1A
+0Bc=1C
+0Ca=1A
+0Cb=1B
+1Abb=1B
+1Acc=1C
+1Baa=1A
+1Bcc=1C
+1Caa=1A
+1Cbb=1B
+1Ab=(return)false
+0Ac=(return)false
+0Ba=(return)false
+0Bc=(return)false
+0Ca=(return)false
+0Cb=(return)false
+# it's too long...
+
+

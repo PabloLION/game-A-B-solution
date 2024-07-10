@@ -1,0 +1,13 @@
+cb=bc               # bubble sort the string
+ca=ac
+ba=ab
+
+ab=1
+b1c=b               # trick for "no b"
+1b=b1               # move 1 to before c
+
+a=(return)false     # more a than b
+1=(return)false     # a=b>c
+bbc=b               # trick for "no c"
+bcc=(return)true
+=(return)false

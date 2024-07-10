@@ -1,0 +1,33 @@
+# from v2-wrong-1
+
+aaa=aa              # change consecutive same characters to bars
+bbb=bb
+ccc=cc
+aa=1
+bb=1
+cc=1
+11=1
+a=0                 # change single character to slots
+b=0
+c=0
+00=(return)false    # fails on more than one slot
+010=(return)false
+0=(return)true      # exactly one slot, return true
+=(return)false      # no slots, return false
+
+## still 14 lines, let's make it 13
+
+
+aaa=aa              # grouped characters as bars
+bbb=bb
+ccc=cc
+aa=1
+bb=1
+cc=1
+a=0                 # single character as slots
+b=0
+c=0
+1=                  # make all bars invisible
+00=(return)false    # fails on more than one slot
+0=(return)true      # exactly one slot, return true
+=(return)false      # no slots, return false

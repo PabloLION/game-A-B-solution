@@ -1,0 +1,19 @@
+cb=bc                           # bubble sort the string
+ca=ac
+ba=ab
+
+ab=AB
+ABbc=b                          # trick to check if "no b"
+ABb=bAB                         # move AB to before c
+a=(return)false                 # more a than b
+AB=(return)false                # same a as b
+bcc=c                           # trick to check if "no c"
+c=(return)true
+=(return)false
+# failed case "c"
+
+
+## another wrong idea
+
+# a < b < c, but we can only know if x<=y
+# so we do not(c<=b<=a)

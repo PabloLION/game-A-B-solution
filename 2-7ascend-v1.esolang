@@ -1,0 +1,17 @@
+# used 13 lines, chanllenge: 8 lines
+cb=bc
+ca=ac
+ba=ab
+
+abbbc=bb
+abbc=b
+abc=
+
+ac=(return)false
+
+bbbcccc=(return)true
+bbbccc=(return)false
+bbccc=(return)true
+bbcc=(return)false
+bcc=(return)true
+=(return)false
