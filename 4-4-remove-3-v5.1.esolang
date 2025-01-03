@@ -1,0 +1,10 @@
+# move a sentinel from end to start and remove 3 a's
+
+(once)=(end)s  #sentinel
+(once)as=s     # remove 3 a's
+(once)as=s
+(once)as=s
+as=sa
+bs=sb
+cs=sc
+(start)s=      # remove the sentinel

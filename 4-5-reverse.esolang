@@ -1,0 +1,76 @@
+# mark the start; mark the end with a sentinel start should be like `(start)X` but we cannot write this
+# 3 times due to consecutive marks.
+
+# split the task to two parts
+# 1. move the first letter to the end.
+# 2. move the last letter to the start.
+
+
+
+# solution to this problem
+(once)=(start)s
+(once)=(end)e
+(once)sa=(end)a
+(once)sb=(end)b
+(once)sc=(end)c
+(once)ae=(start)a
+(once)be=(start)b
+(once)ce=(start)c
+
+
+
+# some functions
+
+# move the first letter to the end
+(once)a=As
+(once)b=Bs
+(once)c=Cs
+(start)A=(end)a
+(start)B=(end)b
+(start)C=(end)c
+(once)A=a
+(once)B=b
+(once)C=c
+(once)s=
+(once)s=
+(once)s=
+
+# move the last letter to the start
+(once)=(end)e
+(once)ea=(start)a
+(once)eb=(start)b
+(once)ec=(start)c
+ea=ae
+eb=be
+ec=ce
+
+# this is called "move first to end"
+# from the last function "move the last letter to the start"
+# we can improve the "move the first letter to the end" function
+(once)=(start)s
+(once)sa=(end)a
+(once)sb=(end)b
+(once)sc=(end)c
+
+# this is called "move last to start"
+# inspired by "move first to end" we can improve "move the last letter to the start"
+(once)=(end)e
+(once)ae=(start)a
+(once)be=(start)b
+(once)ce=(start)c
+
+# mark first (upper case as markers)
+(once)=(start)s
+(once)sa=A
+(once)sb=B
+(once)sc=C
+
+# mark last (using numbers as markers)
+(once)=(end)e
+(once)ae=1
+(once)be=2
+(once)ce=3
+
+
+# swap first two letters is not needed.
+

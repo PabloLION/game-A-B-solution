@@ -1,0 +1,52 @@
+# add all markers(m), abc->ambmc
+(once)=(start)s
+sa=ams
+sb=bms
+sc=cms
+(once)ms= # when the s is at the end, remove the ending m as well.
+
+# also use CAPs for the handled letters
+(start)m=
+Ama=maA
+Amb=mbA
+Amc=mcA
+Bma=maB
+Bmb=mbB
+Bmc=mcB
+Cma=maC
+Cmb=mbC
+Cmc=mcC
+(start)a=A
+(start)b=B
+(start)c=C
+
+
+# to lower the CAPs, this one is better 
+
+# add all markers(m), abc->mambmc
+(once)=(start)s
+# m: marker
+sa=mas
+sb=mbs
+sc=mcs
+(once)s= # remove the ending s.
+
+# also use CAPs for the handled letters
+(start)ma=A
+(start)mb=B
+(start)mc=C
+Ama=maA
+Amb=mbA
+Amc=mcA
+Bma=maB
+Bmb=mbB
+Bmc=mcB
+Cma=maC
+Cmb=mbC
+Cmc=mcC
+
+# then, swap the caps back
+A=a
+B=b
+C=c
+

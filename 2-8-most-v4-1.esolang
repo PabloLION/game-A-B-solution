@@ -1,16 +1,14 @@
-# - can it be `aaabb` at the end? 
-#   Yes, at the input. (hence, can't compress `ab` and `aa`)
-#
 # let's try another way to eliminate the `abc` triple
 # and it works
+# in this version we try to not use `A` and change the elimination order instead
 
+ba=ab
+aA=
 cb=bc
 ca=ac
-ba=ab
 
-bc=A
+bc=A    # after sorting `abc`
 bA=Ab
-aA=
 
 ab=       # aab, abb, aaab, abbb, ..., aaaabbb
 ac=       # aac, acc, aaac, accc, ..., aaaaccc

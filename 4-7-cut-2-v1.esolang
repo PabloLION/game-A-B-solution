@@ -1,0 +1,18 @@
+# move first 2 to end; remove 1 letter; move last 2 letters back.
+# this can work but I thought it's harder than mark first two with CAPs. Turns out it's easier.
+
+(start)sa=(end)A # (end)A, (end)sa both work
+(start)sb=(end)B
+(start)sc=(end)C
+(once)=(start)s
+(once)=(start)s
+
+(once)=(start)r # remove first
+ra=
+rb=
+rc=
+
+# move last 2 back
+(end)A=(start)a
+(end)B=(start)b
+(end)C=(start)c

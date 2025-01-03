@@ -1,0 +1,18 @@
+# canceling `abc=` with `bc=A` is same as `ab=C`
+
+ba=ab
+cb=bc
+ca=ac
+
+ab=C
+Cb=bC
+Cc=
+
+C=       # aab, abb, aaab, abbb, ..., aaaabbb
+ac=       # aac, acc, aaac, accc, ..., aaaaccc
+bc=       # bbc, bcc, bbbc, bccc, ..., bbbbccc
+
+
+aa=a      # aa
+bb=b      # bb
+cc=c      # cc

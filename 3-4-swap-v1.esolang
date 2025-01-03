@@ -1,0 +1,5 @@
+(start)a=(end)A
+(end)b=(start)B
+bA=Ab
+A=a
+B=b

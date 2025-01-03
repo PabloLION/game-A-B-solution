@@ -1,0 +1,23 @@
+# reverse, 4-2-remove-2, reverse
+
+# first reverse
+Aa=aA
+Ab=bA
+Ac=cA
+Ba=aB
+Bb=bB
+Bc=cB
+Ca=aC
+Cb=bC
+Cc=cC
+
+(start)a=A
+(start)b=B
+(start)c=C
+
+# then 4-2-remove-2
+(once)A=
+(once)A=
+(once)A=
+
+# last reverse, but it leads to infinite loop

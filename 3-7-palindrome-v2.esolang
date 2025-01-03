@@ -1,0 +1,14 @@
+(end)aA=
+(end)bB=
+(end)cC=
+
+(start)a=(end)A
+(start)b=(end)B
+(start)c=(end)C
+
+A=*
+B=*
+C=*
+
+**=(return)false
+=(return)true

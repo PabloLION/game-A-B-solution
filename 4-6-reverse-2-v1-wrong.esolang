@@ -1,0 +1,64 @@
+# 1. add markers between letters and at both ends of the string. abc->mambmc
+# say we have ambmc, how do we add those letters? with `xy=xmy` it's not good. maybe add a moving sentinel.
+# we can't distinguish an `ab` from the start of the game and after reversing.
+
+# 2. move all mXmY to mYmX, and if there no mXmY, move mXm to mmX once.
+# like this
+# abc->mambmc 
+# mambmcm->mbmamcm
+# mbmamcm->mbmcmam
+# mambmcm->mbmcmma
+# ...
+# this is not necessary? because we only need the last special char?
+
+# 3. remove all m's and return
+(once)=(start)s
+# m: marker
+sa=ams
+sb=bms
+sc=cms
+(once)ms= # when the s is at the end, remove the ending m as well.
+# added all m, abc->mambmc
+
+
+# swapping to the end won't work... we cannot swap from the beginning correctly.
+(start)m=
+mamb=mbma
+mbmc=mcmb
+mbma=mamb
+mamc=mcma
+mcmb=mbmc
+mcma=mamc
+
+# we should swap from the end?
+
+# here move all letters before the first to before the second m, like `XYmZm->mZXYm`, and
+# then remove first m. this way we can reverse the string. we can see it as "move first mZ to the start".
+# this is not working. because of the order
+(start)m=
+ama=maa
+amb=mba
+amc=mca
+bma=mba
+bmb=mbb
+bmc=mcb
+cma=mca
+cmb=mcb
+cmc=mcc
+# this either works, for ambmamb, after bamamb， it swaps ama=maa again in the middle.
+
+# maybe also use CAPs for the handled letters?
+(start)m=
+Ama=maA
+Amb=mbA
+Amc=mcA
+Bma=maB
+Bmb=mbB
+Bmc=mcB
+Cma=maC
+Cmb=mbC
+Cmc=mcC
+(start)a=A
+(start)b=B
+(start)c=C
+

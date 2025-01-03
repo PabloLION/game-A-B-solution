@@ -1,0 +1,18 @@
+# mark the last 3 a's and remove them
+
+# counting as marking
+(once)a=7
+(once)a=6
+(once)a=5
+(once)a=4
+(once)a=3
+(once)a=2
+(once)a=1
+
+# it's hard to mark the last 3
+
+# remove last 3? (wrong, not last 3)
+(once)1=
+(once)2=
+(once)3=
+

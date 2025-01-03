@@ -1,0 +1,23 @@
+# tips: repeated statements are useless
+
+# try to remove A
+# problem: `bbc=bcb` should come after `cb=bc`, but without `bc=` in between, it causes infinite loops
+# now think about removing all `a`s first
+
+ba=ab
+ca=ac
+
+abc=
+acb=
+
+bbc=bcb
+ccb=bcc
+ab=       # aab, abb, aaab, abbb, ..., aaaabbb
+ac=       # aac, acc, aaac, accc, ..., aaaacc
+
+bc=       # bbc, bcc, bbbc, bccc, ..., bbbbccc
+cb=bc
+
+aa=a      # aa
+bb=b      # bb
+cc=c      # cc

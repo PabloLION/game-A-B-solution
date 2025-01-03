@@ -1,0 +1,8 @@
+# move a sentinel from end to start and remove 3 a's
+# change the sentinel to use less lines (like 4-2v1 to 4-2v2)
+
+(once)=(end)sss  #sentinel
+as=       # remove 3 a's
+bs=sb
+cs=sc
+(start)s=      # remove the sentinel

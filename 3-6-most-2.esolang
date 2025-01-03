@@ -1,0 +1,19 @@
+# modified from 2-8-most
+
+ba=ab
+ca=ac
+
+abc=(end)*
+acb=(end)*
+
+bbc=bcb
+ccb=bcc
+ab=(end)*
+ac=(end)*
+
+bc=(end)*
+cb=bc
+
+a*=aa
+b*=bb
+c*=cc

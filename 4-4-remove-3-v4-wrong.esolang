@@ -1,0 +1,13 @@
+# store the ending other letters to the beginning of the string, like rotation
+# but the rotation never ends
+
+(once)=(start)E #end
+(end)a=(start)a
+(end)b=(start)b
+(end)c=(start)c
+
+(once)a=
+(once)a=
+(once)a=
+
+(once)E=

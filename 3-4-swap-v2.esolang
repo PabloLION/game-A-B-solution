@@ -1,0 +1,25 @@
+# this fails aab due to infinite loop
+(start)a=(end)A
+(end)b=(start)b
+bA=Ab
+A=a
+
+# this fixes aab cases, but fails case1
+bA=Ab
+(end)b=(start)b
+(start)a=(end)A
+A=a
+
+# another fail attempt
+(end)ba=(end)ab
+(start)ba=(start)ab
+(end)b=(start)b
+(start)a=(end)a
+
+# we need a register to store how many starting a's and trailing b's we have
+# in the prevous solutions, I tried to store them at the end but it's not needed.
+
+(start)a=A
+Aa=aA
+(end)b=(start)b
+A=(end)a

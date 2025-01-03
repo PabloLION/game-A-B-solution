@@ -1,0 +1,6 @@
+# hard to find the ending condition.
+# this code won't work
+
+a=d
+b=a
+d=b

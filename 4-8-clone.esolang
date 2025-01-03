@@ -1,0 +1,14 @@
+# 1 or 2 to end, duplicate, move back.
+
+# reusing 4-7
+
+sa=(end)EAA
+sb=(end)EBB
+sc=(end)ECC
+(once)=(start)sss
+EA=(start)A
+EB=(start)B
+EC=(start)C
+A=a
+B=b
+C=c
